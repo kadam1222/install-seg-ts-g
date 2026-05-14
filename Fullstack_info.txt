@@ -1,0 +1,26 @@
+Backend backend szerver:
+------------------------
+npx express-generator --no-view backend
+cd backend
+npm install
+npm start
+
+Telepítendők:
+npm install dotenv
+npm install nodemon
+npm install mysql2
+npm install cors
+
+Frontend CRA fejlesztőszerver telepítése:
+-----------------------------------------
+npx create-react-app@latest frontend
+cd frontend
+npm start
+
+Útvonalkezelés:
+npm install react-router-dom
+
+SPA alkalmazás
+
+npm create vite@latest frontend_reactvite --templata react
+npm install axios react-bootstrap bootstrap 
